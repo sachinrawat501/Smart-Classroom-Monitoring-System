@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Download } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://smart-classroom-monitoring-system-qc7r.onrender.com/api";
 
 function AttendanceTable() {
 const [students, setStudents] = useState([]);
